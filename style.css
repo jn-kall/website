@@ -1,0 +1,201 @@
+.text-tengah{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 100px;
+    margin-bottom: 900px;
+    text-align: center;
+}
+.text-tengah p{
+    font-size: 24px;
+    color: #fff;
+}
+
+.slide-container{
+  margin-top: 150px;
+}
+
+.content{
+    margin-top: 200px;
+    margin-left: 250px;
+    margin-bottom: 300px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: pink;
+  }
+  
+  .music-player {
+    width: 300px;
+    height: 400px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .music-player-image {
+    width: 100%;
+    height: px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .music-player-info {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .music-player-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .music-player-artist {
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .music-player-audio {
+    display: none;
+  }
+  
+  .music-player-controls {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .music-player-play-pause-btn {
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: #333;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .music-player-play-pause-btn svg {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+  }
+html{
+  scroll-behavior: smooth;
+}
+.text1{
+  margin-left: 300px;
+  margin-bottom: 900px;
+  margin-top: -750px;
+  color: black;
+  text-shadow: #333;
+}
+
+h1,
+p,
+.content,
+.calenderr{
+  animation: CSSscrollReveal ease-in-out both;
+  animation-timeline: view();
+  animation-range: entry 50% cover 50%;
+}
+
+@keyframes CSSscrollReveal {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.text-tengah1{
+  margin-left: px;
+  margin-top: px;
+  margin-bottom: -950px;
+  padding-bottom: 700px;
+  position: absolute;
+  text-align: center;
+  color: red;
+}
+.text-tengah1 p{
+  color: black;
+}
+.text-tengah2{
+  margin-left: 00px;
+  margin-top: 400px;
+  margin-bottom: -950px;
+  padding-bottom: 700px;
+  position: absolute;
+  text-align: center;
+}
+.text-tengah3{
+  margin-left: 00px;
+  margin-top: px;
+  margin-bottom: -950px;
+  padding-bottom: 700px;
+  position: absolute;
+  text-align: center;
+}
+.text-tengah4{
+  margin-left: 00px;
+  margin-top: 400px;
+  margin-bottom: -950px;
+  padding-bottom: 700px;
+  position: absolute;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 999px;
+  padding-top: 999px;
+  padding-bottom: 800px;
+}
+
+.card {
+  width: calc(50% - 20px);
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.reveal {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.text-tengah5{
+  margin-left: 00px;
+  margin-top: 999px;
+  padding-top: 400px;
+  margin-bottom: -950px;
+  padding-bottom: 200px;
+  position: absolute;
+  text-align: center;
+}
